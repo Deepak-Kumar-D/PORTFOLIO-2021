@@ -1,0 +1,64 @@
+#interests {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.interests-container {
+  padding: 3rem;
+  height: 90%;
+  overflow: scroll;
+}
+
+.interests-container > h4 {
+  font-size: large;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  background-color: #ffffff1f;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.grid-container a {
+  padding: 1rem;
+  background-color: #ffffff1f;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.grid-container a:hover {
+  background-color: #74025b8a;
+}
+
+.achievement-img {
+  max-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  mask-image: linear-gradient(to bottom, #000000 20%, transparent 100%);
+}
+
+.achievement-img > img {
+  width: 100%;
+}
+
+.grid-container a h4 {
+  letter-spacing: 2px;
+}
+
+.grid-container a p {
+  font-size: small;
+}
+
+.interests-container::-webkit-scrollbar {
+  width: 0;
+}

@@ -1,0 +1,103 @@
+#contact {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  padding: 3rem;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container > form {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 3px;
+  flex: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.contact-container > form > label {
+  color: #814f81;
+  font-size: large;
+  font-weight: bold;
+}
+
+.contact-container > form > input,
+textarea {
+  margin: 1rem 0;
+  padding: 1rem 0.5rem;
+  font-size: medium;
+  outline: none;
+  color: #814f81;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-container > form > textarea {
+  height: 300px;
+}
+
+.contact-container > form > input[type="submit"] {
+  background-color: #74025b;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.contact-container > form > input[type="submit"]:hover {
+  background-color: #814f81;
+}
+
+.handles {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  margin-left: 1rem;
+  border-radius: 3px;
+}
+
+.handles > a {
+  color: #74025b;
+  font-size: xx-large;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.handles > a > svg {
+  margin-right: 0.5rem;
+}
+
+.handles > a:hover {
+  color: #814f81;
+}
+
+@media screen and (max-width: 425px) {
+  .contact-container {
+    overflow: scroll;
+    display: block;
+  }
+
+  .handles {
+    margin-top: 2rem;
+    margin-left: 0;
+    height: 20%;
+  }
+
+  .handles > a {
+    font-size: larger;
+  }
+}

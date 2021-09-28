@@ -1,0 +1,63 @@
+#experiences {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences-container {
+  padding: 3rem;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-experience {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.sub-experience > .works {
+  background-color: #ffffff1f;
+  border-radius: 3px;
+}
+
+.sub-experience > .works > h2 {
+  background-color: #fff;
+  color: #74025b;
+  font-size: x-large;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 3px 3px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-experience > .works > h2 > svg {
+  margin-right: 0.5rem;
+}
+
+.work-list {
+  padding: 0.5rem;
+  color: #fff;
+}
+
+.work-list > h4 {
+  margin: 1.5rem 0 0.2rem 0;
+  letter-spacing: 2px;
+}
+
+.work-list > p {
+  background-color: #ffffff1f;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .experiences-container {
+    align-items: flex-start;
+    overflow: scroll;
+  }
+}

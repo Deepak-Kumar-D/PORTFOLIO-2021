@@ -1,0 +1,72 @@
+#aboutMe {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  padding: 3rem;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container > p {
+  font-size: large;
+  text-align: justify;
+  width: 40%;
+  padding: 0 1rem;
+  color: #fff;
+  line-height: 3;
+}
+
+.about-img {
+  max-width: 500px;
+  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 3px;
+  mask-image: linear-gradient(to bottom, #000000 20%, transparent 100%);
+}
+
+.about-img > img {
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-img {
+    order: 1;
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-container > p {
+    order: 2;
+    width: 100%;
+    line-height: 2;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about-img > img {
+    width: 150px;
+  }
+
+  .about-container > p {
+    font-size: small;
+    margin-top: 1rem;
+  }
+}
