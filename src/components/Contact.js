@@ -25,7 +25,8 @@ function Contact() {
           email: data.email,
           message: data.message,
         }),
-        mode: "no-cors",
+        mode: "cors",
+        credentials: "include",
       }
     );
 

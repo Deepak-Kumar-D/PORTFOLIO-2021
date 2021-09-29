@@ -66,7 +66,7 @@ function Skills() {
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/illustrator.png" alt="illustrator" />
+            <img src="/images/programs/illustrator.PNG" alt="illustrator" />
           </div>
           <p>Adobe Illustrator</p>
         </div>
