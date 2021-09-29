@@ -25,6 +25,7 @@ function Contact() {
           email: data.email,
           message: data.message,
         }),
+        mode: "cors",
       }
     );
 
