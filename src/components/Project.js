@@ -35,7 +35,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/pizza.png" alt="pizza" />
+              <img src="/images/deployed/pizza.PNG" alt="pizza" />
             </div>
 
             <p>Pizza Town</p>
@@ -70,7 +70,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/url.png" alt="url" />
+              <img src="/images/deployed/url.PNG" alt="url" />
             </div>
 
             <p>URL Shortener</p>
@@ -105,7 +105,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/mentor.png" alt="mentor" />
+              <img src="/images/deployed/mentor.PNG" alt="mentor" />
             </div>
 
             <p>Assign Mentor</p>
@@ -140,7 +140,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/recipe.png" alt="recipe" />
+              <img src="/images/deployed/recipe.PNG" alt="recipe" />
             </div>
 
             <p>Just Recipe</p>
@@ -175,7 +175,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/currency.png" alt="currency" />
+              <img src="/images/deployed/currency.PNG" alt="currency" />
             </div>
 
             <p>Currency Exchange</p>
@@ -208,7 +208,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/whatsapp.png" alt="whatsapp" />
+              <img src="/images/deployed/whatsapp.PNG" alt="whatsapp" />
             </div>
 
             <p>WhatsApp Clone</p>
@@ -242,7 +242,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/profile.png" alt="profile" />
+              <img src="/images/deployed/profile.PNG" alt="profile" />
             </div>
 
             <p>User Profiles</p>
@@ -277,7 +277,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/admin.png" alt="admin" />
+              <img src="/images/deployed/admin.PNG" alt="admin" />
             </div>
 
             <p>Admin Theme</p>
@@ -310,7 +310,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/phone.png" alt="phone" />
+              <img src="/images/deployed/phone.PNG" alt="phone" />
             </div>
 
             <p>Phone Number Validator</p>
@@ -343,7 +343,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/github.png" alt="github" />
+              <img src="/images/deployed/github.PNG" alt="github" />
             </div>
 
             <p>GitHub Clone</p>
@@ -374,7 +374,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/shop.png" alt="shop" />
+              <img src="/images/deployed/shop.PNG" alt="shop" />
             </div>
 
             <p>Shopping In Style</p>
@@ -407,7 +407,7 @@ function Project() {
                   <MdOpenInNew />
                 </a>
               </div>
-              <img src="deployed/calculator.png" alt="calculator" />
+              <img src="/images/deployed/calculator.PNG" alt="calculator" />
             </div>
 
             <p>Calculator</p>
