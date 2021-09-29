@@ -13,18 +13,21 @@ function Contact() {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const obj = await fetch("/connect", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: data.name,
-        email: data.email,
-        message: data.message,
-      }),
-      mode: "cors",
-    });
+    const obj = await fetch(
+      "https://deepak-kumar-d-portfolio.herokuapp.com/connect",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          message: data.message,
+        }),
+        mode: "cors",
+      }
+    );
 
     if (obj.status === 200) {
       alert("Thank You! Will get in touch with you soon.");
