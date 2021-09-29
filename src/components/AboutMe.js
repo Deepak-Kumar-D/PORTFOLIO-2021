@@ -2,9 +2,10 @@ import React from "react";
 import "../css/AboutMe.css";
 
 function AboutMe() {
+  const handleScroll = () => {};
   return (
     <section id="aboutMe">
-      <div className="about-container">
+      <div className="about-container" onScroll={handleScroll}>
         <p>
           Hello! <br />
           Deepak Kumar D hails from Kerala but currently he is located in

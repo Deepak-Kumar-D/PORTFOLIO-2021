@@ -13,23 +13,47 @@
 }
 
 .about-container > p {
-  font-size: large;
   text-align: justify;
-  width: 40%;
+  font-size: medium;
+  order: 2;
+  width: 50%;
   padding: 0 1rem;
   color: #fff;
-  line-height: 3;
+  line-height: 2;
+  animation: aboutFade ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aboutFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .about-img {
-  max-width: 500px;
   max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   border-radius: 3px;
-  mask-image: linear-gradient(to bottom, #000000 20%, transparent 100%);
+  mask-image: linear-gradient(to right, #000000 70%, transparent 100%);
+  animation: openImage ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes openImage {
+  0% {
+    max-width: 0;
+  }
+  100% {
+    max-width: 500px;
+  }
 }
 
 .about-img > img {
@@ -50,7 +74,6 @@
   .about-container > p {
     order: 2;
     width: 100%;
-    line-height: 2;
     margin-top: 3rem;
   }
 }

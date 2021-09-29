@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="container">
       <Navbar />
+
       <img src="/images/BG3.jpg" className="bg-img" alt="bg" />
 
       <div className="main">

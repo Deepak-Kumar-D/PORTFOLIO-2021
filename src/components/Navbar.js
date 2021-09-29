@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { BiLabel } from "react-icons/bi";
 import { FiSettings } from "react-icons/fi";
 import { FaProjectDiagram, FaChartBar } from "react-icons/fa";
@@ -10,17 +10,6 @@ import "../css/Navbar.css";
 function Navbar() {
   const [menu, setMenu] = useState(false);
 
-  useEffect(() => {
-    const currentLocation = window.location.href;
-    const menuItem = document.querySelectorAll("a");
-    const menuLength = menuItem.length;
-
-    for (let i = 0; i < menuLength; i++) {
-      if (menuItem[i].href === currentLocation) {
-        menuItem.className = "nav-active";
-      }
-    }
-  }, []);
   return (
     <div className="navbar">
       <ul className={menu ? "open" : "close"} onClick={() => setMenu(!menu)}>
@@ -58,6 +47,11 @@ function Navbar() {
           <a href="#contact">
             <RiContactsBookFill />
             Contact Me
+          </a>
+        </li>
+        <li className="resume">
+          <a href="/Resume-2021.pdf" target="_blank" rel="noreferrer">
+            RESUME
           </a>
         </li>
       </ul>
