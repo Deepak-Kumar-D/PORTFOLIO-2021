@@ -13,8 +13,8 @@ function AboutMe() {
           <br />
           His steps have always been on the path of Creativity up till now. He
           always works to present something attractive to the eyes. His
-          punctuality, dedication and team-efforts with the pinch of necessary
-          leadership qualities helps him in acommplishing the goals.
+          punctuality, dedication and team-efforts with a pinch of necessary
+          leadership qualities helps him in accomplishing the goals.
           <br />
           He has completed his degree in <i>Master of Computer Applications </i>
           with a CGPA of 7.45 in the year 2017.
