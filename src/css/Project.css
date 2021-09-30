@@ -42,10 +42,39 @@
 .list-container a {
   color: #fff;
   text-decoration: none;
+  position: relative;
 }
 
-.list-container a:hover {
+.list-container a > span {
+  pointer-events: none;
+  visibility: hidden;
+  position: absolute;
+  left: -3rem;
+  color: #1f1f1f;
+  font-size: small;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  background-color: #ebebebf3;
+  z-index: 1;
+}
+
+.list-container a:hover span {
+  visibility: visible;
+}
+
+.client:hover {
   color: #d8b953;
+}
+
+.server:hover {
+  color: #90f37c;
+}
+
+.host:hover {
+  color: #5c93fa;
 }
 
 .project-img {
