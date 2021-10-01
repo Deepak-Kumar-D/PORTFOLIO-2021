@@ -1,5 +1,5 @@
 #interests {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -11,7 +11,7 @@
 }
 
 .interests-container > h4 {
-  font-size: large;
+  font-size: medium;
   font-weight: 500;
   color: #fff;
   letter-spacing: 3px;
@@ -21,13 +21,14 @@
   background-color: #ffffff1f;
 }
 
-.grid-container {
+.grid-container,
+.achGrid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
   grid-gap: 2rem;
 }
 
-.grid-container a {
+.achGrid-container a {
   padding: 1rem;
   background-color: #ffffff1f;
   border-radius: 3px;
@@ -35,7 +36,7 @@
   text-decoration: none;
 }
 
-.grid-container a:hover {
+.achGrid-container a:hover {
   background-color: #74025b8a;
 }
 
@@ -51,14 +52,37 @@
   width: 100%;
 }
 
-.grid-container a h4 {
+.achGrid-container a h4 {
   letter-spacing: 2px;
 }
 
-.grid-container a p {
+.achGrid-container a p {
   font-size: small;
 }
 
 .interests-container::-webkit-scrollbar {
   width: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .interests-container {
+    padding: 2rem;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .programs > p {
+    font-size: 80%;
+  }
+
+  .achGrid-container a h4 {
+    font-size: 70%;
+    font-weight: 600;
+  }
+
+  .achGrid-container a p {
+    font-size: 70%;
+  }
 }

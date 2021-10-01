@@ -17,9 +17,9 @@ function Project() {
     <section id="projects">
       <div className="projects-container">
         <div className="list-container">
-          {ProjectDB.map((projectList) => {
+          {ProjectDB.map((projectList, index) => {
             return (
-              <div className="hub">
+              <div className="hub" key={index}>
                 <div className="project-img">
                   <div className="links">
                     <a

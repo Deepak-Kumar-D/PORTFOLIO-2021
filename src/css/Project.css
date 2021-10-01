@@ -1,5 +1,5 @@
 #projects {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -124,4 +124,15 @@
   color: #c575b4;
   font-size: 1.2rem;
   margin-right: 1rem;
+}
+
+@media screen and (max-width: 425px) {
+  .projects-container {
+    padding: 1.5rem;
+  }
+
+  .list-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+  }
 }

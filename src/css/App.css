@@ -73,9 +73,8 @@ section {
 }
 
 section > h1 {
-  padding-bottom: 5rem;
+  margin-top: 0.3rem;
   color: #fff;
-  text-align: right;
   display: flex;
   align-items: center;
   width: 90%;
@@ -99,7 +98,6 @@ section > h1 {
 }
 
 section > h1 > hr {
-  height: 0;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -117,6 +115,10 @@ section > h1 > hr {
 }
 
 @media screen and (max-width: 768px) {
+  section > h1 {
+    font-size: medium;
+  }
+
   section > h1 > hr {
     width: 50%;
   }
@@ -133,12 +135,9 @@ section > h1 > hr {
   }
 }
 
-@media screen and (max-width: 475px) {
-  /* section > h1 > hr {
-    width: 20%;
+@media screen and (max-width: 320px) {
+  .about-img {
+    max-height: 170px;
+    max-width: 100px;
   }
-
-  section > h1 {
-    font-weight: small;
-  } */
 }

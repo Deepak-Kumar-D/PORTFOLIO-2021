@@ -66,7 +66,7 @@ function Interests() {
         </div>
 
         <h4>Achievements</h4>
-        <div className="grid-container">
+        <div className="achGrid-container">
           <a
             href="https://www.guvi.in/verify-certificate?id=mcVg691B6uI8261219"
             target="_blank"
