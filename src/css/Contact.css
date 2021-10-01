@@ -89,6 +89,13 @@ textarea {
   .contact-container {
     overflow: scroll;
     display: block;
+    padding: 1.5rem;
+  }
+
+  .contact-container > form > input,
+  textarea,
+  .contact-container > form > label {
+    font-size: 90%;
   }
 
   .handles {
