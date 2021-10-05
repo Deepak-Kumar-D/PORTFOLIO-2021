@@ -65,16 +65,15 @@
   visibility: visible;
 }
 
-.client:hover {
-  color: #d8b953;
-}
-
-.server:hover {
-  color: #90f37c;
-}
-
-.host:hover {
-  color: #5c93fa;
+.hub > p {
+  font-size: medium;
+  font-weight: bold;
+  color: #74025b;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 2px;
+  letter-spacing: 1px;
 }
 
 .project-img {
@@ -101,17 +100,23 @@
 .project-img > .links > a > svg {
   font-size: 1.8rem;
   margin: 0.5rem;
+  transition: 0.25s ease-in-out;
 }
 
-.hub > p {
-  font-size: medium;
-  font-weight: bold;
-  color: #74025b;
-  margin-bottom: 0.5rem;
-  background-color: #fff;
-  padding: 0.5rem;
-  border-radius: 2px;
-  letter-spacing: 1px;
+.project-img > .links > a > svg:hover {
+  margin-bottom: 1rem;
+}
+
+.client:hover {
+  color: #d8b953;
+}
+
+.server:hover {
+  color: #90f37c;
+}
+
+.host:hover {
+  color: #5c93fa;
 }
 
 .tools > svg {
