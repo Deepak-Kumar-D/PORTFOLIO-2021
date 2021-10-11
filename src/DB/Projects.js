@@ -29,28 +29,12 @@ const ProjectDB = [
   },
   {
     name: "Just Recipe",
-    tools: "react",
+    tools: "fullstack",
     src: "/images/deployed/recipe.PNG",
     alt: "recipe",
     client: "https://github.com/Deepak-Kumar-D/React-Recipe-App",
     server: "https://github.com/Deepak-Kumar-D/React-Recipe-App-Server",
     host: "https://react-just-recipe.netlify.app/",
-  },
-  {
-    name: "Currency Exchange",
-    tools: "react",
-    src: "/images/deployed/currency.PNG",
-    alt: "currency",
-    client: "https://github.com/Deepak-Kumar-D/React-Currency-Exchange",
-    host: "https://react-currency-exchanger.netlify.app/",
-  },
-  {
-    name: "WhatsApp Clone",
-    tools: "react-firebase",
-    src: "/images/deployed/whatsapp.PNG",
-    alt: "whatsapp",
-    client: "https://github.com/Deepak-Kumar-D/Whatsapp-Clone-2021",
-    host: "https://whatsapp-clone-mern-2021.web.app/",
   },
   {
     name: "User Profiles",
@@ -61,6 +45,23 @@ const ProjectDB = [
     server: "https://github.com/Deepak-Kumar-D/React-Users-Server",
     host: "https://react-reactusers.netlify.app/",
   },
+  {
+    name: "WhatsApp Clone",
+    tools: "react-firebase",
+    src: "/images/deployed/whatsapp.PNG",
+    alt: "whatsapp",
+    client: "https://github.com/Deepak-Kumar-D/Whatsapp-Clone-2021",
+    host: "https://whatsapp-clone-mern-2021.web.app/",
+  },
+  {
+    name: "Currency Exchange",
+    tools: "react",
+    src: "/images/deployed/currency.PNG",
+    alt: "currency",
+    client: "https://github.com/Deepak-Kumar-D/React-Currency-Exchange",
+    host: "https://react-currency-exchanger.netlify.app/",
+  },
+
   {
     name: "Admin Theme",
     tools: "react",

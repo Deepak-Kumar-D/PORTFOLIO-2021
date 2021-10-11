@@ -4,6 +4,8 @@ import "../css/AboutMe.css";
 function AboutMe() {
   return (
     <section id="aboutMe">
+      <img src="/images/BG.jpg" className="bg-img" alt="bg" />
+
       <div className="about-container">
         <div className="holder">
           <div className="about-img">

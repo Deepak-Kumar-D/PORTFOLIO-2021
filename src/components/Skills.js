@@ -1,4 +1,16 @@
 import React from "react";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import {
+  SiExpress,
+  SiJavascript,
+  SiAdobephotoshop,
+  SiAdobeillustrator,
+  SiAdobepremierepro,
+  SiAdobeaftereffects,
+  SiAdobeindesign,
+  SiMicrosoftpowerpoint,
+} from "react-icons/si";
 import "../css/Skills.css";
 
 function Skills() {
@@ -7,7 +19,7 @@ function Skills() {
       <div className="skills-container">
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/mongodb.png" alt="mern" />
+            <DiMongodb />
           </div>
 
           <p>MongoDB</p>
@@ -15,7 +27,7 @@ function Skills() {
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/express.png" alt="express" />
+            <SiExpress />
           </div>
 
           <p>Express JS</p>
@@ -23,14 +35,14 @@ function Skills() {
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/react.png" alt="react" />
+            <FaReact />
           </div>
           <p>React JS</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/node.png" alt="node" />
+            <FaNodeJs />
           </div>
 
           <p>Node JS</p>
@@ -38,63 +50,63 @@ function Skills() {
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/javascript.png" alt="javascript" />
+            <SiJavascript />
           </div>
           <p>Javascript</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/html.svg" alt="html" />
+            <FaHtml5 />
           </div>
           <p>HTML5</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/css.png" alt="css" />
+            <FaCss3Alt />
           </div>
           <p>CSS3</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/photoshop.png" alt="photoshop" />
+            <SiAdobephotoshop />
           </div>
           <p>Adobe Photoshop</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/Illustrator.png" alt="illustrator" />
+            <SiAdobeillustrator />
           </div>
           <p>Adobe Illustrator</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/premiere.png" alt="premiere" />
+            <SiAdobepremierepro />
           </div>
           <p>Adobe Premiere Pro</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/after-effects.png" alt="after-effects" />
+            <SiAdobeaftereffects />
           </div>
           <p>Adobe After Effects</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/indesign.png" alt="indesign" />
+            <SiAdobeindesign />
           </div>
           <p>Adobe InDesign</p>
         </div>
 
         <div className="programs">
           <div className="logo-img">
-            <img src="/images/programs/powerpoint.png" alt="powerpoint" />
+            <SiMicrosoftpowerpoint />
           </div>
           <p>Microsoft Powerpoint</p>
         </div>

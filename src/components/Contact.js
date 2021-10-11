@@ -41,7 +41,7 @@ function Contact() {
           <input
             type="text"
             name="name"
-            placeholder="APJ Abdul Kalam"
+            placeholder="Full Name"
             {...register("name", { required: "⚠ Name is required!" })}
           />
           <p className="message">{errors.name && errors.name.message}</p>
@@ -50,7 +50,7 @@ function Contact() {
           <input
             type="email"
             name="email"
-            placeholder="kalam@india.com"
+            placeholder="code@thispc.com"
             {...register("email", { required: "⚠ Email is required!" })}
           />
           <p className="message">{errors.email && errors.email.message}</p>

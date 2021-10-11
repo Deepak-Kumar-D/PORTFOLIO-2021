@@ -13,6 +13,7 @@
   padding: 10px;
   position: fixed;
   z-index: 2;
+  background-color: #272727;
   animation: fadeIn ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -30,18 +31,19 @@
 }
 
 .navbar > ul > li {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.4rem;
+  transition: 0.5s ease;
 }
 
 .navbar > ul > li:hover {
-  background-color: #ffffff4d;
+  background-color: #74025b;
   border-radius: 2px;
 }
 
 .navbar > ul > li > a {
   font-size: small;
   text-decoration: none;
-  color: white;
+  color: #fff;
   letter-spacing: 1px;
   display: flex;
   align-items: center;
@@ -54,6 +56,12 @@
 .resume {
   border: 2px solid #74025b;
   border-radius: 2px;
+}
+
+.navbar > ul > .resume > a {
+  color: #a38605;
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 768px) {

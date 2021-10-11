@@ -4,6 +4,15 @@
   flex-direction: column;
 }
 
+#experiences > h1 {
+  color: #410033;
+  font-weight: 800;
+}
+
+#experiences > h1 > hr {
+  border-top: 2px solid #74025b;
+}
+
 .experiences-container {
   padding: 3rem;
   height: 90%;
@@ -13,21 +22,23 @@
 }
 
 .sub-experience {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sub-experience > .works {
-  background-color: #ffffff1f;
+  min-width: 400px;
+  background-image: linear-gradient(to bottom, #74025b, #272727 90%);
+  border: 2px solid #74025b;
   border-radius: 3px;
+  margin: 1rem;
 }
 
 .sub-experience > .works > h2 {
-  background-color: #fff;
-  color: #74025b;
+  background-color: #272727;
+  color: #fff;
   font-size: x-large;
+  font-weight: 500;
   text-align: center;
   padding: 0.5rem;
   border-radius: 3px 3px 0 0;
@@ -57,7 +68,18 @@
 
 @media screen and (max-width: 1024px) {
   .experiences-container {
-    align-items: flex-start;
-    overflow: scroll;
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .experiences-container {
+    padding: 1rem;
+    font-size: 80%;
+  }
+
+  .sub-experience > .works {
+    margin: 0.5rem;
   }
 }

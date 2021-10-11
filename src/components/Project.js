@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { MdOpenInNew } from "react-icons/md";
 import { DiMongodb } from "react-icons/di";
-import { SiJavascript, SiFirebase } from "react-icons/si";
+import { SiExpress, SiJavascript, SiFirebase } from "react-icons/si";
 import "../css/Project.css";
 
 function Project() {
@@ -43,13 +43,19 @@ function Project() {
                     ) : (
                       <></>
                     )}
-
-                    <a href={projectList.host} target="_blank" rel="noreferrer">
-                      <MdOpenInNew className="host" />
-                      <span>Demo</span>
-                    </a>
                   </div>
+
                   <img src={projectList.src} alt={projectList.alt} />
+
+                  <a
+                    href={projectList.host}
+                    className="host"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <MdOpenInNew />
+                    <span>DEMO</span>
+                  </a>
                 </div>
 
                 <p>{projectList.name}</p>
@@ -57,7 +63,7 @@ function Project() {
                 {projectList.tools === "fullstack" ? (
                   <div className="tools">
                     <DiMongodb />
-                    <span>Ex</span>
+                    <SiExpress />
                     <FaReact />
                     <FaNodeJs />
                     <FaHtml5 />

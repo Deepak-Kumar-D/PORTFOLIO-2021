@@ -8,57 +8,57 @@ function Interests() {
       <div className="interests-container">
         <h4>Interests</h4>
         <div className="grid-container">
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/gaming.png" alt="Gaming" />
             </div>
             <p>Gaming</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/dance.png" alt="Dancing" />
             </div>
             <p>Dancing</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/travel.png" alt="Travelling" />
             </div>
             <p>Travelling</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/sketch.png" alt="Sketching" />
             </div>
             <p>Sketching</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/cooking.png" alt="Cooking" />
             </div>
             <p>Cooking</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/swim.png" alt="Swimming" />
             </div>
             <p>Swimming</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/camera.png" alt="filming" />
             </div>
             <p>Photography & Filming</p>
           </div>
 
-          <div className="programs">
-            <div className="logo-img">
+          <div className="hobbies">
+            <div className="hobby-img">
               <img src="/images/interests/learn.png" alt="new" />
             </div>
             <p>Learning something new</p>
@@ -67,6 +67,19 @@ function Interests() {
 
         <h4>Achievements</h4>
         <div className="achGrid-container">
+          <a
+            href="https://www.guvi.in/verify-certificate?id=3Dw59036o145N33uq1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="achievement-img">
+              <img src="/images/achievements/FSD.png" alt="fsd" />
+            </div>
+            <h4>Full Stack Developer</h4>
+            <p>GUVI Geek Networks, IITM Research Park</p>
+            <p>Sep 2021</p>
+          </a>
+
           <a
             href="https://www.guvi.in/verify-certificate?id=mcVg691B6uI8261219"
             target="_blank"
