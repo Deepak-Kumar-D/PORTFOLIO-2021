@@ -70,24 +70,23 @@
     position: absolute;
     right: 0.5rem;
     top: 0.5rem;
-    color: #fff;
+    color: #272727;
     font-size: xx-large;
     cursor: pointer;
-    z-index: 10;
-  }
-
-  .menu:hover {
-    color: #e2e2e2;
+    z-index: 99;
+    border: 2px solid #272727;
+    border-radius: 3px;
+    width: 2rem;
+    padding: 0 2px;
   }
 
   .navbar > ul {
     position: absolute;
     z-index: 10;
-    top: 5vh;
+    top: 6vh;
     gap: 15px;
     display: flex;
     flex-direction: column;
-    background-color: #4b1d4b;
     height: 100%;
     animation: none;
   }
@@ -113,5 +112,11 @@
     opacity: 0;
     left: -100rem;
     transition: 0.2s ease-in-out;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .navbar > ul {
+    top: 8vh;
   }
 }

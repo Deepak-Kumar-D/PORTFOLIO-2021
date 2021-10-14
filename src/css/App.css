@@ -86,7 +86,7 @@
 .main {
   position: relative;
   top: 5vh;
-  height: 95vh;
+  height: calc(100vh - 5vh);
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -112,7 +112,7 @@
 }
 
 section {
-  height: 95vh;
+  height: calc(100vh - 5vh);
   scroll-snap-align: start;
 }
 
@@ -159,6 +159,15 @@ section > h1 > hr {
 }
 
 @media screen and (max-width: 768px) {
+  .main {
+    top: 6vh;
+    height: calc(100vh - 6vh);
+  }
+
+  section {
+    height: calc(100vh - 6vh);
+  }
+
   section > h1 {
     font-size: medium;
   }
@@ -183,5 +192,27 @@ section > h1 > hr {
   .about-img {
     max-height: 170px;
     max-width: 100px;
+  }
+}
+
+@media screen and (max-height: 812px) {
+  .main {
+    top: 6vh;
+    height: calc(100vh - 6vh);
+  }
+
+  section {
+    height: calc(100vh - 6vh);
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .main {
+    top: 8vh;
+    height: calc(100vh - 8vh);
+  }
+
+  section > h1 {
+    font-size: 92%;
   }
 }

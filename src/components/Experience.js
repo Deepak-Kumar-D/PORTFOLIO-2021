@@ -1,15 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiTimer } from "react-icons/bi";
 import { GiSandsOfTime } from "react-icons/gi";
 import { FaBusinessTime } from "react-icons/fa";
 import "../css/Experience.css";
 
 function Experience() {
+  const totalWorks = 3;
+  const [current, setCurrent] = useState(0);
+  const [previous, setPrevious] = useState(totalWorks - 1);
+  const [next, setNext] = useState(1);
+
+  const prevWork = () => {
+    setCurrent(previous);
+
+    if (previous - 1 === -1) {
+      setPrevious(totalWorks - 1);
+    } else {
+      setPrevious(previous - 1);
+    }
+
+    if (next - 1 === -1) {
+      setNext(totalWorks - 1);
+    } else {
+      setNext(next - 1);
+    }
+  };
+
+  const nextWork = () => {
+    setCurrent(next);
+
+    if (previous + 1 === totalWorks) {
+      setPrevious(0);
+    } else {
+      setPrevious(previous + 1);
+    }
+
+    if (next + 1 === totalWorks) {
+      setNext(0);
+    } else {
+      setNext(next + 1);
+    }
+  };
+
   return (
     <section id="experiences">
       <div className="experiences-container">
         <div className="sub-experience">
-          <div className="works">
+          <button className="prev-btn" onClick={prevWork}>
+            {"<"}
+          </button>
+
+          <div
+            className={
+              current === 0
+                ? "works active"
+                : previous === 0
+                ? "works prev"
+                : next === 0
+                ? "works next"
+                : "works"
+            }
+          >
             <h2>
               <FaBusinessTime />
               Full-Time
@@ -30,7 +81,17 @@ function Experience() {
             </div>
           </div>
 
-          <div className="works">
+          <div
+            className={
+              current === 1
+                ? "works active"
+                : previous === 1
+                ? "works prev"
+                : next === 1
+                ? "works next"
+                : "works"
+            }
+          >
             <h2>
               <GiSandsOfTime />
               Internship
@@ -43,7 +104,17 @@ function Experience() {
             </div>
           </div>
 
-          <div className="works">
+          <div
+            className={
+              current === 2
+                ? "works active"
+                : previous === 2
+                ? "works prev"
+                : next === 2
+                ? "works next"
+                : "works"
+            }
+          >
             <h2>
               <BiTimer />
               Freelance
@@ -63,6 +134,10 @@ function Experience() {
               <p>Graphic Designer</p>
             </div>
           </div>
+
+          <button className="next-btn" onClick={nextWork}>
+            {">"}
+          </button>
         </div>
       </div>
 

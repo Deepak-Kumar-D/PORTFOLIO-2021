@@ -1,5 +1,4 @@
 #projects {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #410033;
@@ -7,7 +6,7 @@
 
 .projects-container {
   padding: 3rem;
-  height: 90%;
+  height: 95%;
   display: flex;
   direction: rtl;
   overflow-y: scroll;
@@ -171,5 +170,11 @@
   .list-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .projects-container {
+    height: 92%;
   }
 }

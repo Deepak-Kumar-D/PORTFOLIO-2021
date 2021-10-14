@@ -1,5 +1,4 @@
 #skills {
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -15,7 +14,7 @@
 
 .skills-container {
   padding: 3rem;
-  height: 90%;
+  height: 95%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2rem;
@@ -95,7 +94,17 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
+  .programs {
+    height: 150px;
+  }
+
   .programs > p {
-    font-size: 80%;
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .skills-container {
+    height: 92%;
   }
 }

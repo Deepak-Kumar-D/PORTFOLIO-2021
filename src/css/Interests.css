@@ -1,5 +1,4 @@
 #interests {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #410033;
@@ -7,7 +6,7 @@
 
 .interests-container {
   padding: 3rem;
-  height: 90%;
+  height: 95%;
   overflow: scroll;
 }
 
@@ -135,5 +134,11 @@
 
   .achGrid-container a p {
     font-size: 70%;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .interests-container {
+    height: 92%;
   }
 }

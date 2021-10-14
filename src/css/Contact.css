@@ -1,5 +1,4 @@
 #contact {
-  height: 95vh;
   display: flex;
   flex-direction: column;
 }
@@ -15,7 +14,7 @@
 
 .contact-container {
   padding: 3rem;
-  height: 90%;
+  height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +116,13 @@ textarea {
   }
 
   .handles > a {
-    font-size: larger;
+    font-size: medium;
+    margin: 0.2rem;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .contact-container {
+    height: 92%;
   }
 }
