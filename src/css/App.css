@@ -167,11 +167,15 @@ section > h1 > hr {
 
   section {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   section > h1 {
+    padding-bottom: 0;
     font-size: medium;
     margin-top: 0;
+    order: 1;
   }
 
   section > h1 > hr {

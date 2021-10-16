@@ -137,6 +137,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .interests-container {
+    order: 2;
+  }
+}
+
 @media screen and (max-height: 568px) {
   .interests-container {
     height: 92%;

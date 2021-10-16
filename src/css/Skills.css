@@ -89,6 +89,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .skills-container {
+    order: 2;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .skills-container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

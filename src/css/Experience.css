@@ -130,6 +130,20 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .experiences-container {
+    order: 2;
+  }
+
+  .sub-experience > .works {
+    height: fit-content;
+  }
+
+  .work-list > h4 {
+    margin: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .experiences-container {
     padding: 2px;
@@ -137,7 +151,6 @@
   }
 
   .sub-experience > .works {
-    height: 400px;
     width: 90%;
   }
 
@@ -149,6 +162,8 @@
     transform: translateY(230px);
     border-radius: 5px;
     height: 25px;
+    top: auto;
+    bottom: 50%;
   }
 
   .sub-experience > .prev-btn {
@@ -163,10 +178,6 @@
 @media screen and (max-height: 568px) {
   .experiences-container {
     height: 92%;
-  }
-
-  .sub-experience > .works {
-    height: 420px;
   }
 
   .sub-experience > button {
