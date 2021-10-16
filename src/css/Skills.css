@@ -92,7 +92,7 @@
 @media screen and (max-width: 768px) {
   .skills-container {
     order: 2;
-    height: 90vh;
+    height: 80vh;
   }
 }
 
