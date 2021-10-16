@@ -24,6 +24,7 @@
 .projects-container::-webkit-scrollbar-thumb {
   cursor: pointer;
   background-color: #74025b;
+  border: 1px solid grey;
   border-radius: 10px;
 }
 

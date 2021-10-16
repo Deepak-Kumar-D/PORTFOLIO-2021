@@ -93,7 +93,7 @@
 }
 
 .main::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 .main::-webkit-scrollbar-track {
@@ -103,7 +103,8 @@
 
 .main::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #272727;
+  border: 1px solid #fff;
   border-radius: 10px;
 }
 
