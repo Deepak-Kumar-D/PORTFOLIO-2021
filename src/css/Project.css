@@ -179,9 +179,3 @@
     grid-gap: 2rem;
   }
 }
-
-@media screen and (max-height: 568px) {
-  .projects-container {
-    height: 92%;
-  }
-}
