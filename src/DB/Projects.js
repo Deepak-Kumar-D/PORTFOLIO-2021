@@ -68,7 +68,7 @@ const ProjectDB = [
     src: "/images/deployed/admin.PNG",
     alt: "admin",
     client: "https://github.com/Deepak-Kumar-D/Admin-Theme",
-    host: "https://pizza-town.netlify.app/",
+    host: "https://react-admin-theme.netlify.app/",
   },
   {
     name: "Phone Number Validator",
