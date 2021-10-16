@@ -99,6 +99,7 @@ textarea {
 @media screen and (max-width: 768px) {
   .contact-container {
     order: 2;
+    height: 80vh;
   }
 }
 

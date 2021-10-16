@@ -110,8 +110,8 @@
   }
 }
 
-@media screen and (max-height: 568px) {
+@media screen and (max-width: 425px) {
   .skills-container {
-    height: 92%;
+    height: 90%;
   }
 }

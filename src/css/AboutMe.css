@@ -135,6 +135,7 @@
   .about-container {
     order: 2;
     padding: 0.5rem;
+    height: 80vh;
   }
 
   .about-p > p {

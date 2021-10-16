@@ -140,6 +140,7 @@
 @media screen and (max-width: 768px) {
   .interests-container {
     order: 2;
+    height: 80vh;
   }
 }
 
