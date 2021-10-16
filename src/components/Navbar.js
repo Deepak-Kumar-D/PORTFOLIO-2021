@@ -4,7 +4,7 @@ import { FiSettings } from "react-icons/fi";
 import { FaProjectDiagram, FaChartBar } from "react-icons/fa";
 import { FcLike } from "react-icons/fc";
 import { RiContactsBookFill } from "react-icons/ri";
-import { CgMenuRight } from "react-icons/cg";
+import { CgMenu, CgClose } from "react-icons/cg";
 import "../css/Navbar.css";
 
 function Navbar() {
@@ -56,7 +56,11 @@ function Navbar() {
         </li>
       </ul>
 
-      <CgMenuRight className="menu" onClick={() => setMenu(!menu)} />
+      {menu ? (
+        <CgClose className="menu" onClick={() => setMenu(!menu)} />
+      ) : (
+        <CgMenu className="menu" onClick={() => setMenu(!menu)} />
+      )}
     </div>
   );
 }
