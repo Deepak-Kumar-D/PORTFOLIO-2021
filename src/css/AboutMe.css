@@ -74,7 +74,7 @@
   font-size: large;
   padding: 0 2rem;
   color: #ffff;
-  line-height: 2;
+  line-height: 2.5;
   animation: aboutFade ease 3.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;

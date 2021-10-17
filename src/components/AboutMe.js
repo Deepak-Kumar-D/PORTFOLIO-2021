@@ -16,10 +16,11 @@ function AboutMe() {
             <p>
               Hello! This is <span>Deepak Kumar D.</span>
               <br />
-              He basically hails from Kerala. But he was born in Chennai and due
-              to his father's profession, he lived almost all of his life in
-              other cities of India. And at present he is located in Bangalore,
-              The Silicon Valley of India.
+              He is a FULL STACK DEVELOPER who is specialized in MERN Stack. He
+              has done a Full Stack Course from GUVI Geek Network Pvt Ltd. with
+              working demo projects (Don't Forget to check out the Projects
+              section). FrontEnd or BackEnd, the flexibility and the
+              accessibility is the key area where he always tries to focus.
               <br />
               His steps have always been on the path of Creativity up till now.
               He always work to present something attractive to the eyes. His
