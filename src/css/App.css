@@ -173,9 +173,7 @@ section > h1 > hr {
   }
 
   section > h1 {
-    padding-bottom: 0;
     font-size: medium;
-    margin-top: 0;
     order: 1;
   }
 
