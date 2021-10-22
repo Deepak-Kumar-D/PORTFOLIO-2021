@@ -81,9 +81,36 @@
   transition: 0.5s ease-in-out;
 }
 
-.about-p > p > span {
-  font-family: sans-serif;
+.about-p > p > strong:first-child {
   color: #c575b4;
+  font-size: larger;
+  letter-spacing: 3px;
+}
+
+.about-p > p strong {
+  letter-spacing: 1px;
+  color: #a38605;
+}
+
+.about-p > p > small {
+  color: #bbbbbb;
+}
+
+.about-p > p > small > a {
+  color: #c575b4;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.about-p > p > small > a:hover {
+  border-bottom: 2px solid #c575b4;
+}
+
+.about-p > p > span {
+  font-size: medium;
+  color: #bbbbbb;
 }
 
 @keyframes aboutFade {
